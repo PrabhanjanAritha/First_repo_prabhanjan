@@ -15,11 +15,6 @@ const MyButtonWithProps = ({ title, disabled = false }: myButtonProps) => {
 };
 function App() {
   const [count, setCount] = useState(0);
-  const [newState, setNewState] = useState<string>('Hello World');
-
-  const handleClick = () => {
-    setNewState('Button Clicked');
-  };
 
   return (
     <>
